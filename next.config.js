@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: "export",
+    distDir: "dist"
+}
 
-module.exports = {
-    publicPath: "/alice/",
-    outputDir: "docs",
-  };
+module.exports = nextConfig
